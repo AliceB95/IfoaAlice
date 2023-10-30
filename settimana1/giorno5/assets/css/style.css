@@ -1,135 +1,190 @@
 /* IMPOSTAZIONI GENERALI */
-h1,h3,h4{font-family: 'Montserrat', sans-serif;
-color:#25a2c3;
-line-height: 1.5;
-padding-right: 16px; padding-left: 16px;
+h1,
+h3,
+h4 {
+  font-family: "Montserrat", sans-serif;
+  color: #25a2c3;
+  line-height: 1.5;
+  padding-right: 16px;
+  padding-left: 16px;
 }
-h2{font-family: 'Montserrat', sans-serif;
-    color: white;
-    line-height: 1.5;
-    padding-right: 16px; padding-left: 16px;
-font-size: 32px;}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  line-height: 1.5;
+  padding-right: 16px;
+  padding-left: 16px;
+  font-size: 32px;
+}
 
-p,h5,h6 {font-family:'Open Sans' , Arial, Helvetica, sans-serif;
-color: #393d41;
-font-size: 1.2rem;
-line-height: 1.65;
-padding-right: 16px; padding-left: 16px;
+p,
+h5,
+h6 {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  color: #393d41;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  padding-right: 16px;
+  padding-left: 16px;
 }
-p {padding-bottom: 24px;}
+p {
+  padding-bottom: 24px;
+}
 html body {
-            box-sizing: border-box;
-            }
+  box-sizing: border-box;
+}
 body {
-text-align:center;
-margin: 0px;
+  text-align: center;
+  margin: 0px;
 }
 
-footer {background-color:#25a2c3;}
+footer {
+  background-color: #25a2c3;
+}
 
 /* HEADER */
-header {background-color:black;
+header {
+  background-color: black;
 }
-#logo {height: 48px;}
-#divLogo {padding: 64px;}
+#logo {
+  height: 48px;
+}
+#divLogo {
+  padding: 64px;
+}
 /* MAIN */
 
-main {margin-top: -24px;}
+main {
+  margin-top: -24px;
+}
 
 #cta-button {
-    background-color: #f04c2f;
-    font-family: 'Montserrat';
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 1.2rem;
-         border-radius: 3px;
-         border: none;
-         height: 36px;
-         padding: 12px 32px;
-         text-decoration: none;
-         color: white;
+  background-color: #f04c2f;
+  font-family: "Montserrat";
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  border-radius: 3px;
+  border: none;
+  height: 36px;
+  padding: 12px 32px;
+  text-decoration: none;
+  color: white;
 }
-h1 { font-size: 40px;
-padding-top: 32px;}
-
-#firstDiv {padding-bottom: 64px;
-background-image:url(/settimana1/giorno5/assets/images/banner.jpg);
-background-size: 100vw;
-
+h1 {
+  font-size: 40px;
+  padding-top: 32px;
 }
 
-#secondDiv{
-    padding-top: 36px;
+#firstDiv {
+  padding-bottom: 64px;
+  background-image: url(/settimana1/giorno5/assets/images/banner.jpg);
+  background-size: 100vw;
 }
-#notebook {height: 50vh;
-border-radius: 100%;}
 
-#card {padding: 48px 24px 24px 24px;}
-.immagini {width: 100%;
-    height: auto;}
+#secondDiv {
+  padding-top: 36px;
+}
+#notebook {
+  height: 50vh;
+  border-radius: 100%;
+}
 
-article {border: 2px solid #dee1e3;
-border-radius: 3px;
-margin-bottom: 32px;}
+#card {
+  padding: 48px 24px 24px 24px;
+}
+.immagini {
+  width: 100%;
+  height: auto;
+}
+
+article {
+  border: 2px solid #dee1e3;
+  border-radius: 3px;
+  margin-bottom: 32px;
+}
 
 /* ELEMENTI NELL' ASIDE */
 #testimonianze {
-    background-color: #e22d0e;
-    padding-top:56px;
-    padding-bottom: 24px;
-    color: white;
+  background-color: #e22d0e;
+  padding-top: 56px;
+  padding-bottom: 24px;
+  color: white;
 }
+
 blockquote {
-font-style: italic;
-font-family:'OpenSans';
-font-size: 1.2rem;
-line-height: 1.65;
-padding-right: 16px; padding-left: 16px;}
+  font-style: italic;
+  font-family: "OpenSans";
+  font-size: 1.2rem;
+  line-height: 1.65;
+  padding-right: 16px;
+  padding-left: 16px;
+}
 
-cite{font-style: normal;}
-#littleP {font-style: normal;}
+cite {
+  font-style: normal;
+}
+#littleP {
+  font-style: normal;
+}
 
-aside p {color: white;}
+aside p {
+  color: white;
+}
 
-#nome {padding-bottom: 0px;}
+#nome {
+  padding-bottom: 0px;
+}
 
 aside #littleP {
-    font-size: 12px;
+  font-size: 12px;
 }
 
 /* FOOTER */
-footer {padding-bottom: 24px;}
+footer {
+  padding-bottom: 24px;
+}
 
 #contattaciH2 {
-    padding-top: 32px;
+  padding-top: 32px;
 }
 .rowDiv {
-padding-bottom: 12px;}
+  padding-bottom: 12px;
+}
 
-  .fLink {
-    color: 
-    #c8e7f0;}
+.fLink {
+  color: #c8e7f0;
+}
 
-footer a {color:#25a2c3}
-#indirizzo {font-size: 14px;
-color: white;
-display: inline;
+footer a {
+  color: #25a2c3;
+}
+#indirizzo {
+  font-size: 14px;
+  color: white;
+  display: inline;
 }
 
 #line {
-    border-bottom: 1px solid white;
+  border-bottom: 1px solid white;
 }
 
-#divLine {padding-left: 120px;
-    padding-right: 120px;}
-address {font-style: normal}
+#divLine {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+address {
+  font-style: normal;
+}
 #addressVia {
-    font-style: normal;
-    padding-bottom: 16px;
+  font-style: normal;
+  padding-bottom: 16px;
 }
 #linkFake {
-    color: white;
+  color: white;
 }
-#diritti {color: white;
-    padding-top: 16px;
-font-size: 12px;}
+#diritti {
+  color: white;
+  padding-top: 16px;
+  font-size: 12px;
+}
